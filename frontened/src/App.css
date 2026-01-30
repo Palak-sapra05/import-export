@@ -1,0 +1,48 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* ===== Page Layout ===== */
+.page {
+  min-height: 80vh;
+  padding: 40px 10%;
+}
+
+/* ===== Headings ===== */
+.page h1 {
+  font-size: 32px;
+  color: #0a3d62;
+  margin-bottom: 15px;
+}
+
+.page p {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 800px;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 22px;
+  background-color: #0a3d62;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #0652dd;
+}

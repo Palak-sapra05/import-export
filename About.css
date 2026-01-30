@@ -1,0 +1,161 @@
+.about-page {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+    color: #e2e8f0;
+    min-height: 100vh;
+}
+
+.about-hero {
+    text-align: center;
+    padding: 8rem 2rem 4rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: #f8fafc;
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #f472b6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+.mission-section {
+    padding: 5rem 2rem;
+    background: rgba(15, 23, 42, 0.4);
+}
+
+.mission-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #f8fafc;
+}
+
+.mission-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+.founder-section {
+    padding: 5rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.founder-content {
+    background: rgba(30, 41, 59, 0.6);
+    padding: 4rem;
+    border-radius: 24px;
+    border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.founder-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #94a3b8;
+    margin-bottom: 1.5rem;
+}
+
+.founder-highlight {
+    font-size: 1.5rem;
+    color: #60a5fa;
+    margin-top: 2rem;
+}
+
+.approach-section {
+    padding: 5rem 2rem;
+    background: rgba(15, 23, 42, 0.4);
+}
+
+.approach-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.approach-card {
+    background: rgba(30, 41, 59, 0.6);
+    padding: 2.5rem;
+    border-radius: 20px;
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.approach-card:hover {
+    transform: translateY(-10px);
+}
+
+.approach-card h3 {
+    color: #60a5fa;
+    margin-bottom: 1rem;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 2rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.stat-number {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #f8fafc;
+}
+
+.stat-label {
+    color: #94a3b8;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-cta {
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+.cta-button {
+    padding: 1.25rem 3rem;
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .founder-content {
+        padding: 2rem;
+    }
+}
