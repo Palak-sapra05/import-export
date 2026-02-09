@@ -15,8 +15,19 @@ function Home() {
                     </p>
                     <div className="hero-ctas">
                         <button className="primary-cta">Get a Free Quote</button>
-                        <button className="secondary-cta">Explore Services</button>
+
+                        <button
+                            className="secondary-cta"
+                            onClick={() => {
+                                document.getElementById("services")?.scrollIntoView({
+                                    behavior: "smooth"
+                                });
+                            }}
+                        >
+                            Explore Services
+                        </button>
                     </div>
+
                 </div>
             </section>
 
